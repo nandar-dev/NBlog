@@ -1,0 +1,92 @@
+:root {
+  --title-font: 20px
+}
+
+.login-button {
+  width: 82%;
+  height: 35px;
+  color: white;
+  background: #7ebbcd;
+  border: none;
+  outline: none;
+  letter-spacing: 0.8px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.login-button:hover {
+  background: #5daec5;
+  cursor: pointer;
+}
+
+.custom-input {
+  font-size: 15px;
+  height: 33px;
+  width: 80%;
+  outline: none;
+  border: solid 1.5px grey;
+  padding-left: 7px;
+  border-radius: 3px;
+  margin-bottom: 21px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.custom-input:focus {
+  border: solid 1.5px black;
+}
+
+.custom-select {
+  font-size: 15px;
+  height: 38px;
+  width: 101%;
+  outline: none;
+  border: solid 1.5px grey;
+  padding-left: 7px;
+  border-radius: 3px;
+  margin-bottom: 21px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.des {
+  font-size: 15.5px;
+}
+
+.link-des {
+  color: #7ebbcd;
+}
+
+/* BreadCrumbs */
+.breadcrumbs {
+  text-align: left;
+}
+
+.fa-chevron-right {
+  padding: 0px 8px;
+  font-size: 14px;
+}
+
+.goto-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6060ff;
+}
+
+.current-link {
+  font-size: 16px;
+  font-weight: 600;
+
+}
