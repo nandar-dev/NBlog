@@ -1,4 +1,4 @@
-# demo-project
+# NBlog
 
 ## Project setup
 ```
