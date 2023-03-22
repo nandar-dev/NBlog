@@ -1,17 +1,16 @@
 <template>
   <div class="nav">
     <div class="logo">NBlog 
-      <!-- {{ $store.getters.getCount }} -->
       </div>
     <div class="nav-link">
       <ul>
         <li>
-          <RouterLink to="/admin/myblogs"><a>Home</a></RouterLink>
+          <RouterLink to="/"><a>Home</a></RouterLink>
         </li>
-        <li><a>Blogs</a></li>
         <li>
           <RouterLink to="/admin/myblogs"><a>My Blogs</a></RouterLink>
         </li>
+        <li><a>About</a></li>
       </ul>
     </div>
 

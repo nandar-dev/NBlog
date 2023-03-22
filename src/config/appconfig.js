@@ -1,7 +1,7 @@
 const data = {
   appName: "N-Blog",
-  UAT_URL: "http://localhost:3000/",
-  PROD_URL: "http://localhost:3000/",
+  UAT_URL: "https://nblog-api.onrender.com/",
+  PROD_URL: "https://nblog-api.onrender.com/",
 };
 
 export default data;
